@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Grzegorz Wszoła">
+    <meta name="description" content="Page of Big Burger Bungalow(BBB), where you can order food">
+    <title>The Big Burger Bungalow</title>
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="main2.css" type="text/css">
+</head>
+
+<body>
+    <center>
+    <h1>Welcome to the Big Burger Bungalow</h1>
+    <br>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#menu">Our Menu</a>
+                </li>
+                <li>
+                    <a href="#hours">When we are open</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>   
+    <img src="assets/burger_fp.png" alt="burgerphoto" width="800" loading="lazy">
+    <figure>
+        <figcaption><p>Our best Burger</p></figcaption>
+    </figure>
+    </center>
+
+    <hr>
+    <article id="about">
+        <h2><center>About Big Burger Bungalow</center></h2>
+        <p>
+            We work since <time datetime="1943"> 1943 </time>where our germany founder grilled his first burger. We build almost 200 burger places in europe only and we are coming to the America
+            with our delicious burgers. You will never find anything better in whole North America
+        </p>
+        <aside>
+            <details>
+                <summary>
+                    <strong>Did you know?</strong>
+                </summary>
+                <p>Our oldest recipe is from <time datetime="1945"> 1945</time></p>
+            </details>
+        </aside>
+    </article><br>
+
+    <hr>
+    <article id="menu">
+        <h2><center>Our Menu</center></h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="4">Our propositions</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>10$-15$</td>
+                <td>Omega Burger</td>
+                <td>Super Cow Burger</td>
+                <td>Masny Burger</td>
+            </tr>
+            <tr>
+                <td>15$-20$</td>
+                <td>MEGA Burger</td>
+                <td>Double Bacon Burger</td>
+                <td>Grilled Cheese Burger</td>
+            </tr>
+            <tr>
+                <td>20$-40$</td>
+                <td>Super Big Burger</td>
+                <td>Just big and expenive</td>
+                <td>BIG BURGER BUNGALOW SPECIAL</td>
+            </tr>
+        </table>       
+    </article><br>
+
+    <hr>
+    <article id="hours">
+        <h2><center>Working Hours</center></h2>
+        <p>We are open 7 days a week:</p>
+
+        <dl>
+            <dt>Monday - Thursday</dt>
+            <dd><time datetime="09:00">9am</time>-<time datetime="11:00">11pm</time></dd>
+
+            <dt>Friday, Saturday</dt>
+            <dd><time datetime="011:00">11am</time>-<time datetime="02:00">2am</time></dd>
+
+            <dt>Sunday</dt>
+            <dd><time datetime="09:00">9am</time>-<time datetime="12:00">12pm</time></dd>
+        </dl>
+    </article><br>
+
+    <hr>
+    <article id="contact">
+        <h2><center>Contact Us</center></h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Send us a message</legend>
+                <p>
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" placeholder="your name" required>
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="your email" required>
+                </p>
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea name="message" id="message" cols="30" rows="10">Type your message</textarea>
+                </p>
+            </fieldset>
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+    </article>
+
+
+
+
+</body>
+
+</html>
